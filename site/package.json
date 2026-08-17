@@ -1,0 +1,17 @@
+{
+  "name": "lawplus-site",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Law+ — сайтът, разделен на модули и със сглобяване. Видът и функциите са същите.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "vite": "^6.0.5",
+    "terser": "^5.36.0"
+  }
+}
